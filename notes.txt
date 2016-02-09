@@ -1,0 +1,41 @@
+notes:
+
+- set up heroku
+- set up snap pipeline
+- set up database
+- set up jasmine testing
+
+
+STACK:
+
+--> JADE/LESS
+--> EXPRESS JS
+--> MONGO DB
+
+
+
+
+- API calls
+
+* add new movie
+
+* update movie
+
+* search movie
+	- title
+	- year
+	- seenStatus
+	- genre
+
+
+movie : {
+	title: String,
+	year: String,
+	director: String,
+	genre: {
+		String array
+	}
+	seenStatus: boolean,
+	criticScore: Integer,
+}
+
