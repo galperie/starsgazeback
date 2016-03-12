@@ -1,1 +1,1 @@
-web: node starsGazeBack/app.js
+web: node app.js
